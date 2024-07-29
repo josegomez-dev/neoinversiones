@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Neo Inversiones | Asesoría financiera y agencia inmobiliaria</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border" style="width: 3rem; height: 3rem; color: #FF3131;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar Start -->
+        <div class="container-fluid nav-bar bg-transparent">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+                <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
+                    <img class="img-fluid" src="img/logo/neoinversiones-logo.png" alt="Icon" style="width: 50px; height: 50px;">
+                    <h1 class="m-0" style="color: #FF3131;">Neo Inversiones</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link active">Página Principal</a>
+                        <a href="./property-list.html" class="nav-item nav-link">Propiedades</a>
+                        <a href="./404.html" class="nav-item nav-link">BLOG</a>
+                        <a href="./contact.html" class="nav-item nav-link">Contacto</a>
+                    </div>
+                </div>
+                <a target="_blank" data-bs-toggle="modal" data-bs-target="#exampleModal" href="https://docs.google.com/document/d/11Y4nLIVKCcBTOgkj21TgM4AcnvJbD7s0zs4E6_ZKW8g/edit?usp=sharing" class="btn btn-primary px-3 d-none d-lg-flex">
+                    VENDER PROPIEDAD
+                </a>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+
+
+        <!-- Modal Start -->
+        <div style="z-index: 9999;" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title text-secondary fs-5" id="exampleModalLabel">
+                    Cómo Vender tu Propiedad:
+                </h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <p>
+                        <strong>Llena el Formulario en Línea:</strong>
+                    </p>
+                    <p>
+                        Completa nuestro formulario en línea con los detalles de tu propiedad. Proporciónanos información clave para que podamos evaluarla adecuadamente y ayudarte a comenzar con el proceso de venta.
+                    </p>
+                    <a class="btn py-3 px-4" style="background-color: purple; color: white;">
+                        <i class="fa fa-book me-2"></i>
+                        Llenar formulario digital en linea
+                    </a>
+                    <br/><br/>
+                    <p>
+                        o <strong>Descarga el Formulario en PDF:</strong>
+                    </p>
+                    <p>
+                        Si prefieres, puedes descargar el formulario en formato PDF, imprimirlo, llenarlo a mano y enviarlo a nuestro agente. Esto te da la flexibilidad de completar el formulario a tu conveniencia.
+                    </p>
+                    <a class="btn py-3 px-4 text-center" style="background-color: orange; color: white;">
+                        <i class="fa fa-book me-2"></i>
+                        Imprimir PDF
+                    </a>
+                    <br/><br/>
+                    <hr>
+                    <h5 class="text-primary">
+                        <strong>¿Necesitas Ayuda?</strong>
+                    </h5>
+                    <p>
+                        Si tienes alguna pregunta o necesitas asistencia para completar el formulario, no dudes en contactar a nuestro agente. Estamos aquí para brindarte todo el apoyo necesario durante el proceso de venta.
+                    </p>
+                    <a href="https://wa.me/50684325115?text=Hola,%20Quiero%vender%20mi%20propiedad.%20Mi%20nombre%20es:" class="btn py-3 px-4" style="background-color: green; color: white;">
+                        <i class="fa fa-phone-alt me-2"></i>
+                        Escribe al WhatsApp
+                    </a>
+                    <br/><br/>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Continuar</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- Modal End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid header bg-white p-0">
+            <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
+                <div class="col-md-6 p-5 mt-lg-5">
+                    <h1 class="display-5 animated fadeIn" style="color: #0E2E50;"> Inversiones inmobiliarias & Asesoría Financiera</h1>
+                    <p class="animated fadeIn mb-4 pb-2">
+                        En <b>Neo Inversiones</b>,
+                        nos dedicamos a ayudarte a tomar decisiones informadas y exitosas sobre tu futuro financiero y patrimonial. <br/><br/>
+                        Descubre nuestras oportunidades únicas en bienes raíces y permite que nuestros expertos te guíen hacia el éxito.</p>
+                    <a href="#contact" class="btn btn-primary py-3 px-5 me-3 animated fadeIn">Contacta nuestro agente inmobiliario</a> <br/><br/>
+                    <a target="_blank" href="./CATALOGO.pdf" class="btn btn-secondary py-3 px-5 me-3 animated fadeIn">Ver Catalogo Digital de Propiedades</a>
+                </div>
+                <div class="col-md-6 animated fadeIn">
+                    <div class="owl-carousel header-carousel">
+                        <div class="owl-carousel-item">
+                            <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                        </div>
+                        <div class="owl-carousel-item">
+                            <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+
+
+       <!-- Search Start -->
+       <div class="container-fluid bg-primary wow fadeIn" data-wow-delay="0.1s" style="padding: 25px;">
+            <div class="container">
+                <div class="row">
+                    <p class="text-white text-center">
+                        <br/>
+                        <span id="quote"></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Search End -->
+
+
+        <!-- Category Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h1 class="mb-3">Amplia variedad de propiedades que se ajustan a tus necesidades y aspiraciones de inversión.</h1>
+                    <p>
+                         Nuestro portafolio incluye:
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <a class="cat-item bg-white d-block text-center rounded p-3" href="./property-list.html">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <img class="img-fluid" width="50" src="./img/icon/farm.webp" alt="Icon">
+                                </div>
+                                <h6>Terrenos / Fincas</h6>
+                                <p>Perfectos para aquellos que buscan desarrollar proyectos personalizados o realizar inversiones a largo plazo. Ofrecemos terrenos en ubicaciones estratégicas que prometen gran potencial de valorización y oportunidades de desarrollo.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <a class="cat-item bg-white d-block text-center rounded p-3" href="./property-list.html">
+                            <div class="rounded p-4" >
+                                <div class="icon mb-3">
+                                    <img class="img-fluid" width="50" src="./img/icon/building.webp" alt="Icon">
+                                </div>
+                                <h6>Propiedades Comerciales</h6>
+                                <p>Ofrecemos una variedad de propiedades comerciales que son ideales para empresarios e inversionistas que buscan establecer o expandir sus negocios. Ubicadas en áreas comerciales clave, nuestras propiedades te brindan la visibilidad y el acceso que necesitas.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <a class="cat-item bg-white d-block text-center rounded p-3" href="./property-list.html">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <img class="img-fluid" width="50" src="./img/icon/house.avif" alt="Icon">
+                                </div>
+                                <h6>Casas / Departamentos</h6>
+                                <p>Para aquellos que buscan una vida urbana práctica y sofisticada, nuestros departamentos ofrecen comodidad y estilo en ubicaciones privilegiadas. Ideales tanto para vivir como para invertir, te brindan todas las facilidades de la vida moderna.</p>
+                           </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <a class="cat-item bg-white d-block text-center rounded p-3" href="./property-list.html">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <img class="img-fluid" width="50" src="./img/icon/lux.png" alt="Icon">
+                                </div>
+                                <h6>Propiedades de Lujo</h6>
+                                <p>
+                                    Si buscas exclusividad y lujo, nuestras propiedades de alta gama te ofrecen lo mejor en términos de diseño, ubicación y comodidades. Explora nuestras opciones premium y descubre espacios que definen elegancia y sofisticación.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Category End -->
+
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="about-img position-relative overflow-hidden p-5 pe-0">
+                            <img class="img-fluid w-100" src="img/about.jpg">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <h1 class="mb-4">#1 Asesoría para encontrar la propiedad que necesitas</h1>
+                        <p class="text-white"><i class="fa fa-check check-green-color me-3"></i>Experiencia y Profesionalismo</p>
+                        <p>
+                            Nuestro equipo está compuesto por expertos en el mercado inmobiliario y asesores financieros con años de experiencia. Nos aseguramos de que cada transacción sea manejada con el más alto nivel de profesionalismo y conocimiento del sector.
+                        </p>
+                        <p class="text-white"><i class="fa fa-check check-green-color me-3"></i>Transparencia y Comunicación Clara</p>
+                        <p>
+                            Valoramos la transparencia en todas nuestras interacciones. Te proporcionamos información clara y detallada sobre cada paso del proceso, desde la evaluación inicial hasta la finalización de la transacción. Estamos siempre disponibles para responder tus preguntas y mantenerte informado.
+                        </p>
+                        <p class="text-white"><i class="fa fa-check check-green-color me-3"></i>Resultados Comprobados</p>
+                        <p>
+                            Tenemos un historial comprobado de éxito en la compra y venta de propiedades. Nuestros clientes confían en nosotros porque entregamos resultados. Ya sea que estés buscando vender tu propiedad rápidamente o encontrar el hogar ideal, nos comprometemos a alcanzar tus objetivos.
+                        </p>
+                        <a class="btn btn-primary py-3 px-5 mt-3" href="./404.html">Ver BLOG de NeoInversiones</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Call to Action Start -->
+        <div id="contact" class="container-xxl py-5">
+            <div class="container">
+                <div class="rounded bg-white p-3" >
+                    <div class="bg-white specific-rounded p-4">
+                        <div class="row g-5 align-items-center">
+                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                                <a href="./CATALOGO.pdf#page=7">
+                                    <img class="img-fluid rounded w-100" src="img/logo/alex-contact-story.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                                <div class="mb-4">
+                                    <h1 class="mb-3" style="color: #0E2E50;">Ponte en Contacto con <a href="./CATALOGO.pdf#page=7" class="text-secondary"><u>Alexander Gutiérrez</u></a></h1>
+                                    <p>
+                                        <h3 class="text-primary">¿Necesitas asesoramiento financiero personalizado?</h3>
+                                        <b><a target="_blank" href="./CATALOGO.pdf#page=7" class="text-secondary"><u>Alexander Gutiérrez</u></a></b> está aquí para ayudarte a alcanzar tus metas financieras y de inversión. Con años de experiencia y un enfoque centrado en el cliente, Alexander se dedica a proporcionar soluciones efectivas y estrategias financieras que se adaptan a tus necesidades específicas.
+                                    </p>
+                                </div>
+                                <br/>
+                                <a target="_blank" href="https://wa.me/50684325115?text=Hola,%20Mi%20nombre%20es:" class="btn py-3 px-4" style="background-color: green;color: white;"><i class="fa fa-phone-alt me-2"></i>Escribe al WhatsApp</a><br/><br/>
+                                <a target="_blank" href="tel:+50684325115" class="btn btn-primary py-3 px-4 me-2"><i class="fa fa-phone-alt me-2"></i>Llamada por Facetime</a> <br/><br/>
+                                <a target="_blank" href="https://wa.me/50684325115?text=Hola,%20Quiero%20agendar%20una%20cita.%20Mi%20nombre%20es:" class="btn btn-dark py-3 px-4"><i class="fa fa-calendar-alt me-2"></i>Agenda una cita</a> <br/><br/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Call to Action End -->
+
+
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h1 class="mb-3">Opiniones de Nuestros Clientes</h1>
+                    <h3 class="text-primary">Lo Que Dicen Nuestros Clientes</h3>
+                    <p>En Neo Inversiones, la satisfacción de nuestros clientes es nuestra prioridad. Aquí te presentamos algunas de las experiencias y opiniones de quienes han confiado en nosotros para sus necesidades de asesoría financiera e inversión inmobiliaria.</p>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="testimonial-item bg-white rounded p-3">
+                        <div class="bg-white border rounded p-4" style="border: 1px dashed #0E2E50;">
+                            <h3>"Excelente Servicio y Profesionalismo"</h3>
+                            <p>
+                                "Neo Inversiones me ayudó a vender mi propiedad rápidamente y a un excelente precio. Su equipo fue muy profesional y me mantuvieron informado en cada paso del proceso. ¡Altamente recomendados!"
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-1.jpg" style="width: 45px; height: 45px;">
+                                <div class="ps-3">
+                                    <h6 class="fw-bold mb-1">Laura R.</h6>
+                                    <small>Ejecutivo Inversionista</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-white rounded p-3">
+                        <div class="bg-white border rounded p-4" style="border: 1px dashed #0E2E50;">
+                            <h3>"Asesoría Financiera Personalizada"</h3>
+                            <p>
+                                "Gracias a Alexander Gutiérrez y su equipo, pude estructurar un plan financiero que me ha dado tranquilidad y seguridad para el futuro. Su conocimiento y dedicación son incomparables."
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-2.jpg" style="width: 45px; height: 45px;">
+                                <div class="ps-3">
+                                    <h6 class="fw-bold mb-1">Carlos M.</h6>
+                                    <small>Medico General</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-white rounded p-3">
+                        <div class="bg-white border rounded p-4" style="border: 1px dashed #0E2E50;">
+                            <h3>"Encontré la Casa de Mis Sueños"</h3>
+                            <p>
+                                "Neoinversiones me ayudó a encontrar la casa perfecta para mi familia. El proceso fue rápido y sin complicaciones, y su equipo estuvo siempre disponible para responder mis preguntas. ¡Estoy muy agradecida!"
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-3.jpg" style="width: 45px; height: 45px;">
+                                <div class="ps-3">
+                                    <h6 class="fw-bold mb-1">Mariano T.</h6>
+                                    <small>Ingenieria Civil</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br/>
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h3 class="text-primary">¿Tienes una experiencia que compartir?</h3>
+                    <p>
+                        Nos encantaría escuchar tu opinión. Tu testimonio nos ayuda a seguir mejorando y brindar el mejor servicio posible.
+                    </p>
+                    <a class="btn btn-primary" href="./contact.html">Contáctanos</a>
+                </div>
+
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-white-50 footer wow fadeIn" data-wow-delay="0.1s">
+            <div class="text-center">
+                <img style="width: 300px;" src="./img/logo/neoinversiones-logo-white.png" alt="">
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">Neo Inversiones</a>, Derechos Reservados.
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="">Home</a>
+                                <a href="">Cookies</a>
+                                <a href="">Help</a>
+                                <a href="">FQAs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- Auto-generated investment phrase -->
+    <script src="./js/script.js"></script>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script>
+        $('#myModal').on('shown.bs.modal', function () {
+            $('#myInput').trigger('focus')
+        })
+    </script>
+</body>
+
+</html>
